@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="jKxJ18HaMK2NIrM3w4is">
-    <mxGraphModel dx="1525" dy="1198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1589" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="iCi4rQZ_P37fNfDvPhi--6" edge="1" parent="1" source="iCi4rQZ_P37fNfDvPhi--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iCi4rQZ_P37fNfDvPhi--4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iCi4rQZ_P37fNfDvPhi--2" parent="1" style="whiteSpace=wrap;html=1;" value="Spawn robot, drone, 5 energy cells. Score = 0; lives = 3, show both on the screen" vertex="1">
+        <mxCell id="iCi4rQZ_P37fNfDvPhi--2" parent="1" style="whiteSpace=wrap;html=1;" value="Spawn robot, drone, 5 batteries. Score = 0; lives = 3, show both on the screen" vertex="1">
           <mxGeometry height="60" width="120" x="350" y="90" as="geometry" />
         </mxCell>
         <mxCell id="iCi4rQZ_P37fNfDvPhi--7" edge="1" parent="1" source="iCi4rQZ_P37fNfDvPhi--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iCi4rQZ_P37fNfDvPhi--5">
@@ -39,7 +39,7 @@
         <mxCell id="iCi4rQZ_P37fNfDvPhi--24" edge="1" parent="1" source="iCi4rQZ_P37fNfDvPhi--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iCi4rQZ_P37fNfDvPhi--19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iCi4rQZ_P37fNfDvPhi--8" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Robot touches an energy cell?" vertex="1">
+        <mxCell id="iCi4rQZ_P37fNfDvPhi--8" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Robot touches an batteries?" vertex="1">
           <mxGeometry height="80" width="120" x="350" y="330" as="geometry" />
         </mxCell>
         <mxCell id="iCi4rQZ_P37fNfDvPhi--14" edge="1" parent="1" source="iCi4rQZ_P37fNfDvPhi--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iCi4rQZ_P37fNfDvPhi--4">
@@ -61,7 +61,7 @@
         <mxCell id="iCi4rQZ_P37fNfDvPhi--26" edge="1" parent="1" source="iCi4rQZ_P37fNfDvPhi--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iCi4rQZ_P37fNfDvPhi--21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iCi4rQZ_P37fNfDvPhi--19" parent="1" style="whiteSpace=wrap;html=1;" value="Remove touched energy cell, collection sound, add 1 to score" vertex="1">
+        <mxCell id="iCi4rQZ_P37fNfDvPhi--19" parent="1" style="whiteSpace=wrap;html=1;" value="Remove touched batteries, collection sound, add 1 to score" vertex="1">
           <mxGeometry height="60" width="120" x="580" y="340" as="geometry" />
         </mxCell>
         <mxCell id="iCi4rQZ_P37fNfDvPhi--45" edge="1" parent="1" source="iCi4rQZ_P37fNfDvPhi--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iCi4rQZ_P37fNfDvPhi--42">
@@ -76,7 +76,7 @@
         <mxCell id="iCi4rQZ_P37fNfDvPhi--27" edge="1" parent="1" source="iCi4rQZ_P37fNfDvPhi--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iCi4rQZ_P37fNfDvPhi--20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iCi4rQZ_P37fNfDvPhi--21" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="All 5 cells collected?" vertex="1">
+        <mxCell id="iCi4rQZ_P37fNfDvPhi--21" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="All 5 batteries collected?" vertex="1">
           <mxGeometry height="80" width="120" x="580" y="440" as="geometry" />
         </mxCell>
         <mxCell id="iCi4rQZ_P37fNfDvPhi--23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
@@ -120,7 +120,7 @@
         <mxCell id="iCi4rQZ_P37fNfDvPhi--44" edge="1" parent="1" source="iCi4rQZ_P37fNfDvPhi--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iCi4rQZ_P37fNfDvPhi--43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iCi4rQZ_P37fNfDvPhi--34" parent="1" style="whiteSpace=wrap;html=1;" value="Remove touched energy cell, collection sound, add 1 to score" vertex="1">
+        <mxCell id="iCi4rQZ_P37fNfDvPhi--34" parent="1" style="whiteSpace=wrap;html=1;" value="Remove touched batteries, collection sound, add 1 to score" vertex="1">
           <mxGeometry height="60" width="120" x="580" y="695" as="geometry" />
         </mxCell>
         <mxCell id="iCi4rQZ_P37fNfDvPhi--36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
